@@ -9,7 +9,6 @@
 //     let rhours = Math.floor(hours);
 //     let minutes1 = (hours - rhours)*60;
 //     let rminutes = Math.round(minutes1);
-//     return minutes + " minutes= " + rhours + " hour(s) and " + rminutes + " minutes(s).";
+//     return `${minutes} minutes = ${rhours} hours(s) ${rminutes} minute(s).`;
 // };
-
 // console.log(convertTime());
