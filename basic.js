@@ -120,15 +120,15 @@
 
 // ex 7 | Area and Volume of a box
 
-const calcAreaAndVolume = (width, height, depth) => {
-    let area =  width * height;
-    let volume = width * height * depth;
-    let result = [area, volume];
-    return result;
-};
+// const calcAreaAndVolume = (width, height, depth) => {
+//     let area =  width * height;
+//     let volume = width * height * depth;
+//     let result = [area, volume];
+//     return result;
+// };
 
-console.log((calcAreaAndVolume(2,5,3)[0]));
-console.log('\n');
-console.log(calcAreaAndVolume(2,5,3)[1]);
+// console.log((calcAreaAndVolume(2,5,3)[0]));
+// console.log('\n');
+// console.log(calcAreaAndVolume(2,5,3)[1]);
 
 
