@@ -57,10 +57,29 @@
 
 
 
-const crystalGazer = (childrens, name, location, job) => {
-    console.log(`You will be a ${job} in ${location} and married to ${name} with ${childrens}`)
-};
+// const crystalGazer = (childrens, name, location, job) => {
+//     console.log(`You will be a ${job} in ${location} and married to ${name} with ${childrens}`)
+// };
 
-crystalGazer(5, 'Bobur', 'Wien', 'bank worker');
+// crystalGazer(5, 'Bobur', 'Wien', 'bank worker');
 
+
+// ex 4 | Age Calculator
+
+// Write a function called ageCalculator() that takes two arguments:
+//  birth year and current year. Calculate 2 possible ages based on 
+//  those years (two, because we don't know the birth month).
+
+// You should get the following results:
+
+// You are either 29 or 28
+
+function ageCalculator(currentYear, birthYear) {
+    let age1 = currentYear - birthYear;
+    let age2= currentYear - birthYear - 1;
+
+    console.log(`You are either ${age1} or ${age2}`);
+}
+
+ageCalculator(2023, 1999);
 
