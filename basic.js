@@ -74,6 +74,28 @@
 
 // You are either 29 or 28
 
+// function ageCalculator(currentYear, birthYear) {
+//     let age1 = currentYear - birthYear;
+//     let age2= currentYear - birthYear - 1;
+
+//     console.log(`You are either ${age1} or ${age2}`);
+// }
+
+// ageCalculator(2023, 1999);
+
+
+// ex 5 | Age Calculator-improved
+
+// Enhance your previous exercise in terms of how to get the current year in 
+// JavaScript instead of passing it in. Provide the same results just by  
+// passing one argument.
+
+// You should get the following results:
+
+// You are either 29 or 28
+
+
+
 function ageCalculator(currentYear, birthYear) {
     let age1 = currentYear - birthYear;
     let age2= currentYear - birthYear - 1;
@@ -81,5 +103,8 @@ function ageCalculator(currentYear, birthYear) {
     console.log(`You are either ${age1} or ${age2}`);
 }
 
-ageCalculator(2023, 1999);
+const d = new Date();
+let currentYear = d.getFullYear();
+
+ageCalculator(currentYear, 1999);
 
