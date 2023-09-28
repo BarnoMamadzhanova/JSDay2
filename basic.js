@@ -111,9 +111,24 @@
 // ex 6 | Degree-Radian Conversion
 
 
-const convertDegrees = (degrees) => {
-    let radian = degrees * (Math.PI/180);
-    console.log(radian)
+// const convertDegrees = (degrees) => {
+//     let radian = degrees * (Math.PI/180);
+//     console.log(radian)
+// };
+
+// convertDegrees(90);
+
+// ex 7 | Area and Volume of a box
+
+const calcAreaAndVolume = (width, height, depth) => {
+    let area =  width * height;
+    let volume = width * height * depth;
+    let result = [area, volume];
+    return result;
 };
 
-convertDegrees(90);
+console.log((calcAreaAndVolume(2,5,3)[0]));
+console.log('\n');
+console.log(calcAreaAndVolume(2,5,3)[1]);
+
+
