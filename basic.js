@@ -95,16 +95,25 @@
 // You are either 29 or 28
 
 
+// function ageCalculator(currentYear, birthYear) {
+//     let age1 = currentYear - birthYear;
+//     let age2= currentYear - birthYear - 1;
 
-function ageCalculator(currentYear, birthYear) {
-    let age1 = currentYear - birthYear;
-    let age2= currentYear - birthYear - 1;
+//     console.log(`You are either ${age1} or ${age2}`);
+// }
 
-    console.log(`You are either ${age1} or ${age2}`);
-}
+// const d = new Date();
+// let currentYear = d.getFullYear();
 
-const d = new Date();
-let currentYear = d.getFullYear();
+// ageCalculator(currentYear, 1999);
 
-ageCalculator(currentYear, 1999);
 
+// ex 6 | Degree-Radian Conversion
+
+
+const convertDegrees = (degrees) => {
+    let radian = degrees * (Math.PI/180);
+    console.log(radian)
+};
+
+convertDegrees(90);
