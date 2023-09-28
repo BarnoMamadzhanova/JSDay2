@@ -5,7 +5,7 @@
 // let temp = Math.floor(Math.random()*26) -5;
 // console.log(temp);
 
-// if(temp > 10){
+// if(temp > 10 || temp <-5){
 //     console.log( "The weather is moderate");
 // }else {
 
